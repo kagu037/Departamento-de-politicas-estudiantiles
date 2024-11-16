@@ -25,9 +25,9 @@
             <div class="barra">
                 <div class="logo-imagen">
                     <a class="logo" href="index.html">
-                        <img src="img/logo.png" alt="Logo del blog de café" class="logo__nombre no-margin centrar-texto">
+                        <img src="img/logo.png" alt="Logo del blog de café" class="logo__nombre no-margin centrar-texto" loading="lazy">
                     </a>
-                    <img src="img/logodpe.png" alt="Imagen al lado del logo" class="imagen-lado-logo no-margin centrar-texto">
+                    <img src="img/logodpe.png" alt="Imagen al lado del logo" class="imagen-lado-logo no-margin centrar-texto" loading="lazy">
                 </div>
                 <nav class="navegacion">
                     <a href="index.html" class="navegacion__enlace">Inicio</a>
@@ -53,21 +53,29 @@
 
         <h3 class="centrar-texto">Contáctanos</h3>
         <div class="contacto-bg"></div>
-
-        <form class="formulario">
+        <h2 class="centrar-texto" style="font-size: 15px">Envía tus datos</h2>
+        <form class="formulario" action="mailto:dpeuptaeb@gmail.com" method="post" enctype="text/plain">
             <div class="campo">
-                <label class="campo__label" for="nombre">Nombre</label>
-                <input class="campo__field" type="text" placeholder="tu nombre" id="nombre">
+                <label class="campo__label" for="nombre">Nombre:</label>
+                <input class="campo__field" type="text" placeholder="Ingresa tu nombre" id="nombre" name="nombre">
+            </div>
+            <div class="campo">
+                <label class="campo__label" for="apellido">Apellido:</label>
+                <input class="campo__field" type="text" placeholder="Ingresa tu apellido" id="apellido" name="apellido">
+            </div>
+            <div class="campo">
+                <label class="campo__label" for="cedula">Cédula:</label>
+                <input class="campo__field" type="text" placeholder="Ingresa tu cédula" id="cedula" name="cedula">
             </div>
 
             <div class="campo">
-                <label class="campo__label" for="email">E-mail</label>
-                <input class="campo__field" type="email" placeholder="tu email" id="email">
+                <label class="campo__label" for="email">Correo:</label>
+                <input class="campo__field" type="email" placeholder="Ingresa tu correo" id="email" name="email">
             </div>
 
             <div class="campo">
-                <label class="campo__label" for="nombre">Mensaje</label>
-                <textarea class="campo__field campo__field--textarea" id="mensaje"></textarea>
+                <label class="campo__label" for="nombre">Mensaje:</label>
+                <textarea class="campo__field campo__field--textarea" id="mensaje" name="mensaje"></textarea>
             </div>
             <div class="campo">
                 <input type="submit" value="Enviar" class="boton boton--primario">
@@ -82,10 +90,10 @@
             <div class="barra">
                 <div class="logo-imagen-footer">
                     <a class="logo" href="index.html">
-                        <img src="img/logo.png" alt="Logo del blog de café" class="logo__nombre-footer no-margin centrar-texto">
+                        <img src="img/logo.png" alt="Logo del dpe" class="logo__nombre-footer no-margin centrar-texto" loading="lazy">
                     </a>
                     
-                <img src="img/logodpe.png" alt="Imagen al lado del logo" class="imagen-lado-logo-footer no-margin centrar-texto">
+                <img src="img/logodpe.png" alt="Imagen al lado del logo" class="imagen-lado-logo-footer no-margin centrar-texto" loading="lazy">
                 <a href="https://www.instagram.com" class="social-icon" target="_blank">
                     <i class="fab fa-instagram"></i>
                 </a>

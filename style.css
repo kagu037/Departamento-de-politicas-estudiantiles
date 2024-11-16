@@ -486,8 +486,10 @@ object-fit: cover;
    .formulario {
       background-color: var(--blanco);
       margin: -5rem auto 0 auto;
-      width: 95%;
+      width: 75%;
       padding: 5rem;
+      
+      border-radius: 5px;
    }
 
    .campo {
@@ -503,7 +505,8 @@ object-fit: cover;
 
    .campo__field {
       flex: 1;
-      border: 1px solid var(--gris);
+      border: 2px solid var(--gris);
+      border-radius: 5px;
 
    }
 

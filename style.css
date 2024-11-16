@@ -224,8 +224,9 @@ ul, ol {
 }
 
 .noticias__galeria {
-    display: grid;
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     gap: 1rem;
 }
 
@@ -512,7 +513,7 @@ ul, ol {
         column-gap: 2rem;
     }
     .navegacion__enlace {
-        font-size: 1.2rem;
+        font-size: 2rem;
         padding:0.8rem;
         color: white; 
     }  

@@ -229,9 +229,6 @@ ul, ol {
     gap: 1rem;
 }
 
-    transition: transform 0.3s ease;
-}
-
 @media (max-width: 768px) {
     .noticias__galeria {
         display: flex;
@@ -604,5 +601,32 @@ ul, ol {
     .campo {
         width: 250px;
         margin-bottom: 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .especialistas {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .especialista {
+        width: 100%;
+    }
+
+    .especialista img {
+        height: auto;
+    }
+
+    .especialista__info {
+        padding: 5px;
+    }
+
+    .especialista__info h4 {
+        font-size: 1rem;
+    }
+
+    .especialista__info p {
+        font-size: 0.8rem;
     }
 }

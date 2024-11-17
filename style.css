@@ -265,6 +265,20 @@ ul, ol {
         flex-direction: column;
         align-items: center;
     }
+    .noticias__galeria2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .noticias__imagen2 {
+        width: 60%;
+        height: 600px;
+        
+        object-fit: cover;
+        border-radius: 8px;
+        transition: transform 0.3s ease;  
+        margin-right: 15px; /* Agregado para separar las dos imágenes */
+    }
     .noticias__imagen {
         width: 100%;
         height: 500px;

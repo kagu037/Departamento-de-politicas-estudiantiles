@@ -175,12 +175,23 @@ ul, ol {
     display: block;
 }
 
-/* Estilos de la barra */
+
 .barra {
     padding-top: 4rem;
 }
 
-/* Estilos del logo e imagen */
+
+.favicon {
+    width: 16px;
+    height: 16px;
+    margin-top: 13px;
+    color: white;
+    transition: color 0.3s ease;
+}
+
+.favicon:hover {
+    color: #0f5591;
+}
 .logo-imagen {
     display: flex;
     align-items: center;
@@ -566,6 +577,7 @@ ul, ol {
         max-width: 120rem;
         margin: 0 auto;
     } 
+    
 }
 
 /* Media Queries para dispositivos móviles */

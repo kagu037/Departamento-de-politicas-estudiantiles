@@ -466,6 +466,7 @@ ul, ol {
     height: 40rem;
     background-size: cover;
     background-repeat: no-repeat;
+    gap: 10px;
 }
 
 /* Estilos del formulario */
@@ -584,6 +585,7 @@ ul, ol {
     .contenedor {
         max-width: 120rem;
         margin: 0 auto;
+        padding: 5rem;
     } 
     
 }
@@ -596,10 +598,12 @@ ul, ol {
         margin: 0 auto;
         align-content: center;
     }
+    .imagen {
+       max-width: 90%;
+       height: 50px;
+    }
     .formulario {
-       
         width: 75%;
-       
         margin-left: -15% ;
         align-items: flex-start;
     }
@@ -613,6 +617,12 @@ ul, ol {
         margin-top: 1rem;
         text-align: center;
     }
+    .favicon {
+        display: flex;
+        align-items: center;
+        height: 100%;
+        margin-top: -0.4rem; /* Ajuste para posicionar el favicon un poco más arriba */
+    }
 
     .logo-imagen {
         display: flex;
@@ -621,7 +631,7 @@ ul, ol {
     }
 
     .barra {
-        flex-direction: column;
+        display: flex;
         align-items: center;
         gap: 2rem;
         padding-bottom: 1rem;
@@ -637,7 +647,7 @@ ul, ol {
         text-align: center;
         gap: 5px;
     }
-
+    
     .logo-imagen-footer {
         flex-direction: row;
         align-items: center;
@@ -667,6 +677,13 @@ ul, ol {
     .campo {
         width: 250px;
         margin-bottom: 2rem;
+    }
+    .contacto-bg {
+        background-image: url(img/trabajoSocial.webp);
+        height: 40rem;
+        background-size: cover;
+        background-repeat: no-repeat;
+        gap: 10px;
     }
 }
 

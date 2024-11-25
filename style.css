@@ -365,6 +365,8 @@ ul, ol {
 .logo-imagen-footer {
     display: flex;
     align-items: center;
+    gap: 1rem; /* Añade una separación de 1rem entre los elementos */
+    font-size: 5rem; /* Aumenta el tamaño del logo */
 }
 
 .logo__nombre-footer,
@@ -380,6 +382,7 @@ ul, ol {
     margin-left: 15px;
     transition: color 0.3s ease;
     display: inline-block;
+    
 }
 
 /* Estilos sobre nosotros */
@@ -391,6 +394,9 @@ ul, ol {
     gap: 20px;
     margin-top: 2rem;
     margin-bottom: 4rem; 
+}
+.prof {
+    text-align: center;
 }
 
 .especialista {
@@ -641,6 +647,11 @@ ul, ol {
         position: static;
     }
 
+    p {
+        text-align: justify;
+        text-justify: inter-word;
+    }
+
     /* Footer responsive */
     .barra {
         flex-direction: column;
@@ -652,6 +663,7 @@ ul, ol {
         flex-direction: row;
         align-items: center;
         gap: 0.5rem;
+        font-size: 2rem; /* Aumenta el tamaño del logo */
     }
 
     .social-icon {

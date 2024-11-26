@@ -30,6 +30,12 @@ body {
     font-size: 1.6rem;
     line-height: 2;
 }
+/* Eliminar márgenes y rellenos predeterminados */
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
 
 /* Estilos globales */
 .contenedor {
@@ -714,7 +720,7 @@ ul, ol {
     }
 
     .especialista__info {
-        padding: 5px;
+        padding-bottom: 2px;
     }
 
     .especialista__info h4 {

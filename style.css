@@ -80,6 +80,7 @@ img {
 /* Utilidades */
 .no-margin {
     margin: 0;
+    margin-left: 10px;
 }
 
 .no-padding {
@@ -620,7 +621,7 @@ ul, ol {
         align-items: flex-start;
     }
     .header {
-        height: 300px;
+        height: 400px;
         padding-bottom: 1rem;
     }
 
@@ -729,5 +730,10 @@ ul, ol {
 
     .especialista__info p {
         font-size: 0.8rem;
+    }
+}
+@media (max-width: 680px) and (min-width: 10px) {
+    .header__texto {
+        display: none;
     }
 }
